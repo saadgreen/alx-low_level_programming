@@ -16,7 +16,7 @@ while (alphabet_lower <= 'z')
 }
 while (alphabet_upper <= 'Z')
 {
-	putchar(alphabet_upper);
+	write(1, &alphabet_upper, 1);
 	alphabet_upper++;
 }
 putchar('\n');
