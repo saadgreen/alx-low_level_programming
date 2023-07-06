@@ -7,4 +7,5 @@ int _strcmp(char *s1, char *s2)
 		return (1);
 	}
 	
-} 
+}
+// to be continued mekhi 7bes
